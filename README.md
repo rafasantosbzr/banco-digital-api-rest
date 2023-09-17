@@ -41,7 +41,7 @@ A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 
 ___
 
-## Endpoints
+## 🔷 Endpoints
 
 ### 1️⃣ Listar contas
 
@@ -117,6 +117,9 @@ ___
 ![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![Nodejs](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Json](https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white)
+
+
+___
 
 ## 💪 Como contribuir para o projeto
 1. Faça um fork do projeto.
