@@ -47,6 +47,8 @@ ___
 
 http://localhost:3000/contas?senha_banco=Cubos123Bank
 
+![alt text](imagens/listar-contas.png)
+
 
 Nesse endpoint realizamos a consulta de todas as contas cadastradas, desde que a senha correta verificada em middleware seja informada.
 
@@ -55,6 +57,8 @@ ___
 ### 2️⃣ Criar nova conta
 
 http://localhost:3000/contas
+
+![alt text](imagens/criar-conta.png)
 
 
 Nesse endpoint podemos criar uma nova conta bancária para um cliente.
@@ -65,6 +69,8 @@ ___
 
 http://localhost:3000/contas/:numeroConta/usuario
 
+![alt text](imagens/atualizar-usuario.png)
+
 Nesse endpoint conseguimos realizar a atualização dos dados de cadastro de um cliente, desde que o número da conta do cliente seja informado como parâmetro de rota.
 
 ___
@@ -73,12 +79,16 @@ ___
 
 http://localhost:3000/contas/:numeroConta
 
+![alt text](imagens/excluir-conta.png)
+
 Nesse endpoint excluímos uma conta referente ao número de conta informado nos parâmetros de rota.
 ___
 
 ### 5️⃣ Realizar depósito
 
 http://localhost:3000/transacoes/depositar
+
+![alt text](imagens/realizar-deposito.png)
 
 Nesse endpoint realizamos as operações de depósito de valores em uma conta.
 ___
@@ -87,12 +97,16 @@ ___
 
 http://localhost:3000/transacoes/sacar
 
+![alt text](imagens/realizar-saque.png)
+
 Nesse endpoint realizamos as operações de saque de valores de uma conta.
 ___
 
 ### 7️⃣ Realizar transferência
 
 http://localhost:3000/transacoes/transferir
+
+![alt text](imagens/realizar-transferencia.png)
 
 Nesse endpoint realizamos as operações de transferência de valores de uma conta para outra.
 ___
@@ -101,12 +115,16 @@ ___
 
 http://localhost:3000/contas/saldo?numero_conta=1&senha=12342
 
+![alt text](imagens/consultar-saldo.png)
+
 Nesse endpoint realizamos as operações de consulta de saldo de valores de uma conta.
 ___
 
 ### 9️⃣ Consultar extrato
 
 http://localhost:3000/contas/extrato?numero_conta=1&senha=12342
+
+![alt text](imagens/consultar-extrato.png)
 
 Nesse endpoint realizamos as operações de extratos de transações realizadas em uma conta.
 
